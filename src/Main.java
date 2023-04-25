@@ -85,7 +85,7 @@ public class Main {
                         {System.out.println("Add Student First");}
                     else
                         STUDENT_ARRAY_LIST.get(currentStudent).listFees();
-                        break;
+                    break;
                 }
                 break;
                                 
