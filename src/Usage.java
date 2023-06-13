@@ -5,12 +5,11 @@ public abstract class Usage {
     private final String date;
     private double amount = 0.00;
 
-
     public Usage(String name) {
         this.name = name;
         this.date = new Date().toString();
     }
-    
+
     public Usage(double amount) {
         this.amount = amount;
         this.date = new Date().toString();
@@ -21,7 +20,7 @@ public abstract class Usage {
         this.amount = amount;
         this.date = new Date().toString();
     }
-    
+
     protected String getName() {
         return name;
     }
@@ -33,5 +32,5 @@ public abstract class Usage {
     protected double getAmount() {
         return amount;
     }
-    
+
 }
