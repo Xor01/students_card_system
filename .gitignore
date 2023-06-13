@@ -24,6 +24,6 @@ hs_err_pid*
 replay_pid*
 
 ###  ### 
-bin/*.java
+bin/*.class
 !**/src/main/**/bin/
 !**/src/test/**/bin/
