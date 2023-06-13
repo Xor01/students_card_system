@@ -23,7 +23,7 @@
 hs_err_pid*
 replay_pid*
 
-###  ### 
+### vscode build ### 
 bin/*.class
 !**/src/main/**/bin/
 !**/src/test/**/bin/
